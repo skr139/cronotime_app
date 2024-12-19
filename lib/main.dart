@@ -1,11 +1,11 @@
-import 'package:cronotime_app/providers/reproductor_provider.dart';
+import 'package:cronotime_app/providers/player_provider.dart';
 import 'package:cronotime_app/views/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
   runApp(MultiProvider(
-      providers: [ChangeNotifierProvider(create: (_) => ReproductorProvider())],
+      providers: [ChangeNotifierProvider(create: (_) => PlayerProvider())],
       child: const MyApp()));
 }
 

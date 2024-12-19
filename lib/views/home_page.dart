@@ -1,4 +1,4 @@
-import 'package:cronotime_app/views/secuence_reproductor.dart';
+import 'package:cronotime_app/views/player_secuence.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text("Home"),
       ),
-      body: const SecuenceReproductor(),
+      body: const PlayerSecuence(),
     );
   }
 }
